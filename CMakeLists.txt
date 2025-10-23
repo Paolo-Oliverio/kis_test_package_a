@@ -6,7 +6,8 @@ cmake_minimum_required(VERSION 3.20)
 include(cmake/package_setup.cmake)
 
 # 2. Load package metadata (name, version, dependencies).
-include(kis.package.cmake)
+set(PACKAGE_NAME "kis_test_package_a")
+set(PACKAGE_VERSION "0.1.0")
 project(${PACKAGE_NAME} VERSION ${PACKAGE_VERSION})
 
 
